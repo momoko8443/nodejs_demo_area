@@ -1,0 +1,51 @@
+master start...
+worker 11964 died
+worker 11316 died
+worker 11540 died
+worker 1876 died
+ port 5859
+Debugger listening on port 5862
+Debugger listening on port 5861
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at exports._errnoException (util.js:870:11)
+    at TCP.onread (net.js:544:26)
+stening on port 5859
+Debugger listening on port 5862
+Debugger listening on port 5861
+worker 11964 died
+worker 11316 died
+worker 11540 died
+worker 1876 died
+Debugger listening on port 5858
+master start...
+Debugger listening on port 5859
+Debugger listening on port 5862
+Debugger listening on port 5861
+Debugger listening on port 5860
+listening: worker 11204, Address: null:3000
+listening: worker 7728, Address: null:3000
+listening: worker 8008, Address: null:3000
+listening: worker 3532, Address: null:3000
+worker 7728 died
+worker 3532 died
+worker 11204 died
+worker 8008 died
+error: Forever detected script exited with code: 0
+Debugger listening on port 5858
+master start...
+Debugger listening on port 5859
+listening: worker 9504, Address: null:3000
+worker 9504 died
+error: Forever detected script exited with code: 0
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at exports._errnoException (util.js:870:11)
+    at TCP.onread (net.js:544:26)
+error: Forever detected script exited with code: 1
